@@ -1,0 +1,65 @@
+:root 
+
+
+nav ul li{
+    display: inline;
+    
+}
+
+
+body {
+    font-family: 'Montserrat',sans-serif;
+}
+h2{
+    color: #66978f;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.herodiv img {
+    width: 100%;
+    height: auto;
+    margin: 0 0 0px 0px;
+    
+}
+.herodiv article img {     /*this is for the images first two */
+    position: absolute;
+    width: 150px;
+    margin: 0 0 10px 15px;
+    border: 1px solid #baa452;
+    padding: 3px;
+    top: 750px;
+    right: 200px;
+    
+    
+}
+.herodiv h1 {
+    font-family: 'Barriecito', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #dce3e4;
+    font-size: 5rem;
+    background: #baa452;
+    padding: 2rem;
+    
+}
+
+.herodiv article p {
+    position: absolute;
+    top: 100%;
+    background: #baa452;
+	padding: 2rem;
+	opacity: 0.9;
+    color: #dce3e4;
+    font-size: x-large;
+}
+
+section img {
+    display: block;
+    margin-block: 0;
+}
