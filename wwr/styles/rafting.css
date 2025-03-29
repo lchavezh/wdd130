@@ -29,7 +29,7 @@ nav{
 }
 
 nav a {
-    color: #66978f;
+    color: black;
     /* text-decoration: none; */
     font-size: var(--font-size);
     padding: 8px 15px;
@@ -42,7 +42,7 @@ nav ul li{
 
 
 h2{
-    color: #66978f;
+    color: black;
 }
 .hero img {
     display: block;
@@ -84,7 +84,7 @@ h2{
     width: 100%;
     /* left: 50%; */
     /* transform: translate(-50%, -50%); */
-    color: #dce3e4;
+    color: black;
     font-size: 5rem;
     background: #baa452;
     padding: 2rem;
@@ -94,7 +94,7 @@ h2{
 .herodiv article p {
 	padding: 2rem;
 	opacity: 0.9;
-    color: #dce3e4;
+    color: black;
     font-size: var(--font-size);
     grid-column: 1/2;
     grid-row: 1/2;
@@ -145,7 +145,7 @@ h2 {
 }
 .history p{
     font-size: var(--font-size);
-    color: #66978f;
+    color: black;
 }
 
 .history img {
