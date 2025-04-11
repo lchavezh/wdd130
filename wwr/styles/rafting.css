@@ -151,7 +151,7 @@ h2 {
     /* grid-template-rows: 1fr; */
     align-items: center;
     gap: 20px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
     padding: 20px;
     text-align: left;
@@ -210,6 +210,7 @@ form {
     border-radius: 0.5rem;
     background-color:#66978f;
     display: grid;
+    
 }
 
 fieldset {
@@ -238,12 +239,6 @@ input {
     padding: 0.6rem;
     display: flex; 
 }
-
-
-/* select{
-    padding: 1rem;
-    font-size: 1.1rem;
-} */
 
 textarea {
     width: 425px;
@@ -276,4 +271,82 @@ button:hover{
     display: flex;
     justify-content: center;
     padding: 3rem;
+}
+
+.invitation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: left;
+}
+.invitation h2 {
+    display: inline-block;
+}
+.invitation p {
+    display: inline-block;
+}
+section p{
+    padding: 1rem;
+    line-height:2;
+}
+.photo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;   
+}
+figcaption {
+    line-height: 2;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    margin: 20px;
+  }
+  
+  caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  thead,
+  tfoot {
+    background-color: #baa452;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dce3e4;
+    padding: 8px 10px;
+  }
+  
+  td:last-of-type {
+    text-align: center;
+  }
+  
+  tbody > tr:nth-of-type(even) {
+    background-color: #dce3e4;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+.contact {
+    position: absolute;
+    top: 670px;
+    left: 350px;
+    font-size: 25px;
 }
